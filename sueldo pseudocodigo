@@ -1,7 +1,7 @@
 Proceso sueldo
 	Escribir "introduce tu sueldo actual:";
 	Leer sa;
-	Si sa<1250 Entonces
+	Si sa<1500 Entonces
 		s<-sa*.20
 		sca<-s+sa;
 		Escribir "Tu nuevo sueldo es:",sca;
