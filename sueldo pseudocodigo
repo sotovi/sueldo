@@ -1,0 +1,12 @@
+Proceso sueldo
+	Escribir "introduce tu sueldo actual:";
+	Leer sa;
+	Si sa<1250 Entonces
+		s<-sa*.20
+		sca<-s+sa;
+		Escribir "Tu nuevo sueldo es:",sca;
+	Sino
+		Escribir "Aumento negado";
+	FinSi
+	
+FinProceso
